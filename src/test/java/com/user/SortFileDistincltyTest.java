@@ -36,9 +36,12 @@ public class SortFileDistincltyTest {
 @Test
 public void inputFile() throws IOException {
 
-	BufferedReader bufReader = new BufferedReader(new FileReader("C:\\Users\\AISHA\\Desktop\\equifax\\SortingApp\\input.txt"));
-	n = obj.fileReading("input.txt");
+
+
+        n = obj.fileReading("input.txt");
 	Assertions.assertEquals(n,obj.fileReading("input.txt"));
+
+	//BufferedReader bufReader = new BufferedReader(new FileReader("C:\\Users\\AISHA\\Desktop\\equifax\\SortingApp\\input.txt"));
 	//System.out.println(obj.fileReading("input.txt")); 
 }	
 
